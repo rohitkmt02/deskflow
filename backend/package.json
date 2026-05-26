@@ -1,0 +1,17 @@
+{
+  "name": "deskflow-backend",
+  "version": "1.0.0",
+  "description": "DeskFlow Support Ticket API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.9.5"
+  }
+}
